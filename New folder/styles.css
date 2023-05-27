@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:black;
+    line-height: 1.2;
+}
+#showcase{
+    background-image:url(http://2.bp.blogspot.com/-yl8CR_UTEgo/UEhe8Gj1XjI/AAAAAAAAA9I/fGJvzd2KkZQ/s1600/beautiful-nordic-landscapes-full-HD-nature-background-wallpaper-for-laptop-widescreen.jpg) ;
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+}
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+#showcase p{
+    font-size: 20px;
+}
+ #showcase .button{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+ } 
+#showcase .button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.mytabs{
+    background:lightslategray;
+    border-radius: 20px;
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 25px;
+    cursor: pointer;
+}
+.mytabs input[type="radio"]{
+    display: block;
+}
+  
+.mytabs label{
+    padding: 25px;
+    background:white;
+    font-weight: bold;
+    display: block;
+    
+}
+.mytabs .tab{
+    width: 100%;
+    padding: 20px;
+    background: white;
+    order: 1;
+    display:block;
+}
+.mytabs .tab h2{
+    font-size: 1em;
+}
+.mytabs input[type='radio'] :checked + label + .tab {
+    display: block;
+}    
+
+.mytabs input[type="radio"] :checked +label {
+    background:white;
+}
+
+#section-a{
+padding: 20px;
+background:rgb(26, 90, 26);
+text-align: center;
+}
